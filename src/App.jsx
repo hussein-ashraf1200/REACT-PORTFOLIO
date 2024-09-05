@@ -5,6 +5,8 @@ import Technologies from "./component/Technologies"
 import Experience from "./component/Experience"
 import Project from "./component/Project"
 import Contact from "./component/Contact"
+import Bottun from "./component/Bottun"
+import Type from "./component/Type"
 
 const App = () => {
   return (
@@ -23,6 +25,8 @@ const App = () => {
   <Experience/>
   <Project/>
   <Contact/>
+  <Bottun/>
+
   
   </div>
 </div>

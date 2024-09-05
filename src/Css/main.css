@@ -1,0 +1,180 @@
+:root {
+    --main-color: #0ef;
+    --back-color: #14213d;
+}
+
+.contant {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 3rem;
+    padding-left: 30px;
+    margin-top: 130px;
+    margin-bottom: -67px;
+}
+
+.contact-text h2 {
+    font-size: 90px;
+    line-height: 1;
+    text-align: center;
+}
+
+.contact-text h2 span {
+    color: var(--main-color);
+}
+
+.contact-text h4 {
+    margin: 15px 0;
+    color: rgb(228, 228, 228);
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.contact-text-text p {
+    color: rgb(177, 177, 177);
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 2rem;
+}
+
+.contact-list {
+    margin-bottom: 3rem;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.contact-list i {
+    display: inline-block;
+    color: #0ef;
+    font-weight: 600;
+    font-size: 20px;
+    transition: all .40s ease;
+}
+
+.contact-list i a:hover {
+    transform: scale(1.01) translateY(-5px);
+    color: #0ef;
+}
+
+.contact-Icons i {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    transition: .5s ease;
+    opacity: 0;
+    animation: slideleft 1s forwards;
+    animation-delay: .2s;
+}
+
+.contact-Icons i:hover {
+    background: #0ef;
+    color: #000;
+    box-shadow: 0 0 2px #0ef;
+}
+
+.contant-form {
+    position: relative;
+
+}
+
+.contant-form form input,
+form textarea {
+    border: none;
+    outline: none;
+    width: 90%;
+    padding: 18px;
+    background-color: #555557;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+    border-radius: .5rem;
+
+}
+
+.contant-form textarea {
+    resize: none;
+    height: 220px;
+}
+
+.contant-form form .send {
+    display: inline-block;
+    padding: 14px 60px;
+    background-color: var(--main-color);
+    border-radius: 40px;
+    font-size: 18px;
+    color: #081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    animation: slidetop 1s ease forwards;
+    animation-delay: 2s;
+    box-shadow: 0 0 5px #0ef,
+        0 0 5px #0ef;
+
+}
+
+.contant-form form .send:hover {
+    box-shadow: 0 0 5px cyan,
+        0 0 25px cyan,
+        0 0 100px cyan,
+        0 0 200px cyan;
+}
+
+.last-text {
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    background-color: rgb(177, 177, 177);
+    font-weight: 800;
+    margin-top: 70px;
+
+}
+
+.top {
+    position: fixed;
+    bottom: 2.1rem;
+    right: 2.1rem;
+    background: var(--main-color);
+    font-size: 10px;
+    border-radius: 0.5rem;
+}
+
+.top i {
+    color: #000;
+    background-color: var(--main-color);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 0.5rem;
+}
+@media (max-width: 768px) {
+    .contant-form {
+        padding: 1rem;
+        /* زيادة المساحة الداخلية للنموذج على الشاشات الصغيرة */
+    }
+
+    .contant-form input,
+    .contant-form textarea {
+        width: 100%;
+        margin-bottom: 0.5rem;
+        /* تقليل المسافة بين الحقول */
+    }
+
+    .contant-form input[type="submit"] {
+        width: 100%;
+        padding: 0.5rem;
+        /* زيادة المساحة على زر الإرسال */
+    }
+}
