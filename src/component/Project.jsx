@@ -19,7 +19,7 @@ const Project = () => {
     
     className='mb-8 mt-8 mr-8 flex flex-wrap lg:justify-center'>
       <a href={project.link } target="_blank" rel="noopener noreferrer">
-        <GrView className="cursor-pointer hover:scale-125 hover:text-cyan-300" />
+        <GrView className=" ml-48	 cursor-pointer hover:scale-125 hover:text-cyan-300" />
     </a>
     </motion.div>
     <motion.div 

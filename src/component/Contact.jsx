@@ -12,11 +12,7 @@ const Contact = () => {
         transition={{duration:1}}
       className="text-center text-4xl mt-8">Get  in Touch </motion.h2>
       <div className="text-center tracking-tighter ">
-
-  
-
-
-        
+    
 {/* test */}
 <section>
 
