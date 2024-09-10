@@ -2,6 +2,11 @@ import project1 from "../assets/projects/project-1.jpg";
 import weater from "../assets/projects/weater.png";
 import project3 from "../assets/projects/project-3.jpg";
 import engine from "../assets/projects/engine.png";
+import bookstore from "../assets/projects/bookstore.png";
+import CarRent from '../assets/projects/CarRent.png';
+import food from '../assets/projects/food.png';
+import Travel from '../assets/projects/Travel.png';
+
 
 export const HERO_CONTENT = `
 I am a passionate Front-End developer with a knack for crafting responsive and efficient web applications. I have honed my skills in front-end technologies like React. My goal is to leverage my expertise to create innovative user interfaces that drive business growth and deliver exceptional user experiences.`;
@@ -36,7 +41,55 @@ export const PROJECTS = [
 
     
   },
+
+
+
   {
+    title: "Book Store",
+    image: bookstore,
+    description:
+      "Aresposive website to get books.",
+    technologies: ["HTML", "Tailwind" , "React", "Javascript"],
+    link: "https://book-store-wm9n.vercel.app/",  // الخاصية الجديدة
+
+  },
+  {
+    title: "Car Rent",
+    image: CarRent,
+    description:
+      "Aresposive website to Rent Cars .",
+    technologies: ["HTML", "Tailwind" , "React", "Javascript"],
+    link: "https://car-rent-virid.vercel.app//",  // الخاصية الجديدة
+
+  },
+  {
+    title: "Food website",
+    image: food,
+    description:
+      "Aresposive website to Order meals.",
+    technologies: ["HTML", "Tailwind" , "React", "Javascript"],
+    link: "https://book-store-wm9n.vercel.app/",  // الخاصية الجديدة
+
+  },
+  {
+    title: "Travel",
+    image: Travel,
+    description:
+      "Aresposive website .",
+    technologies: ["HTML", "Tailwind" , "React", "Javascript"],
+    link: "https://travel-omega-lyart.vercel.app//",  // الخاصية الجديدة
+
+  },
+    {
+    title: "Image Engine Search",
+    image: engine,
+    description:
+      "A search engine for heigh-resolution images.",
+    technologies: ["HTML", "CSS" , "Javascript"],
+    link: "https://hussein-ashraf1200.github.io/Image-search-engine/",  // الخاصية الجديدة
+
+  },
+    {
     title: "Weater App",
     image: weater,
     description:
@@ -45,22 +98,13 @@ export const PROJECTS = [
     link: "https://hussein-ashraf1200.github.io/APP-FOR-WEATHER/" , // الخاصية الجديدة
 
   },
-  {
+    {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "Tailwind", "React.Js"],
     link: "https://hussein-ashraf1200.github.io/React-portfolio/",  // الخاصية الجديدة
-  },
-  {
-    title: "Image Engine Search",
-    image: engine,
-    description:
-      "A search engine for heigh-resolution images.",
-    technologies: ["HTML", "CSS" , "Javascript"],
-    link: "https://hussein-ashraf1200.github.io/Image-search-engine/",  // الخاصية الجديدة
-
   },
 ];
 
