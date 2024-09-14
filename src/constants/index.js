@@ -1,11 +1,10 @@
-import project1 from "../assets/projects/project-1.jpg";
 import weater from "../assets/projects/weater.png";
-import project3 from "../assets/projects/project-3.jpg";
 import engine from "../assets/projects/engine.png";
 import bookstore from "../assets/projects/bookstore.png";
 import CarRent from '../assets/projects/CarRent.png';
 import food from '../assets/projects/food.png';
 import Travel from '../assets/projects/Travel.png';
+import shoper from '../assets/projects/shoper.png';
 
 
 export const HERO_CONTENT = `
@@ -32,12 +31,12 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
+    title: "E-Commerce Website Shopper",
+    image: shoper,
     description:
       "A responsive e-commerce website for selling clothes, where you can reserve products and add them to the cart. It consists of four pages, including sections for men, women, children, and best-sellers",
     technologies: ["HTML", "CSS", "React.Js"],
-    link: "https://your-ecommerce-project-link.com",  // الخاصية الجديدة
+    link: "https://shopper-two-beta.vercel.app/",  // الخاصية الجديدة
 
     
   },
@@ -90,7 +89,7 @@ export const PROJECTS = [
 
   },
     {
-    title: "Weater App",
+    title: "Weather App",
     image: weater,
     description:
       "An app to check the temperature, wind speed, and humidity.",
@@ -98,14 +97,7 @@ export const PROJECTS = [
     link: "https://hussein-ashraf1200.github.io/APP-FOR-WEATHER/" , // الخاصية الجديدة
 
   },
-    {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "Tailwind", "React.Js"],
-    link: "https://hussein-ashraf1200.github.io/React-portfolio/",  // الخاصية الجديدة
-  },
+
 ];
 
 export const CONTACT = {

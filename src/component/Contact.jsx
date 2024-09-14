@@ -10,7 +10,7 @@ const Contact = () => {
       <div className="text-center tracking-tighter flex flex-wrap lg:justify-center">
     
 {/* test */}
-<section className='flex flex-wrap lg:justify-center'>
+<section className='flex flex-wrap lg:justify-center md:text-center'>
 
   <div className="contant 	 flex flex-wrap lg:justify-center	w-1/2" id="contant">
     <motion.div       
@@ -46,21 +46,11 @@ const Contact = () => {
         initial={{opacity:0, x:100}}
         transition={{duration:1}}
 >
-
-  
 </motion.div>
-
   </div>
 </section>
-
-
-
-
 {/* test */}
-
-
-
-      </div>
+     </div>
     </div>
   )
 }
