@@ -67,7 +67,7 @@ export const PROJECTS = [
     description:
       "Aresposive website to Order meals.",
     technologies: ["HTML", "Tailwind" , "React", "Javascript"],
-    link: "https://book-store-wm9n.vercel.app/",  // الخاصية الجديدة
+    link: "https://food-rust-nine.vercel.app//",  // الخاصية الجديدة
 
   },
   {
